@@ -153,7 +153,7 @@ Visiting `/-/media/hello/Groot` will cause your browser to download a file calle
 Your SQL query can specify that an image should be resized and/or converted to another format by returning additional columns. All three are optional.
 
 * `resize_width` - the width to resize the image to
-* `resize_width` - the height to resize the image to
+* `resize_height` - the height to resize the image to
 * `output_format` - the output format to use (e.g. `jpeg` or `png`) - any output format [supported by Pillow](https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html) is allowed here.
 
 If you specify one but not the other of `resize_width` or `resize_height` the unspecified one will be calculated automatically to maintain the aspect ratio of the image.
